@@ -12,12 +12,14 @@ body {
 main {
 	background: #bada55;
 	width: 100vw;
-	height: 100vh;
+	height: 100vh;  
 }
 
 .controls {
 	top: 2rem;
 	left: 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .control {
@@ -45,6 +47,10 @@ main {
 	border-radius: .4rem;
 	border: 2px solid green;
 	box-shadow: 1px 1px 4px 2px #557668;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(0, -45%);
 }
 
 .count_button:active {
